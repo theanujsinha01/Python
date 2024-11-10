@@ -1,4 +1,5 @@
 #Tuple : similar to list but can't modified once created
+#unchangeable
 a = (1,5,8)
 print(a)
 
@@ -12,5 +13,6 @@ print(ans)
 
 # length of tuple
 print(len(tuple_1))
+
 
 
