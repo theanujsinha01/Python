@@ -10,7 +10,7 @@ except Exception as e:
 
 #else block and finally block 
 try:
-    a = 2/0
+    a = 2/1
     b = 2*1
 except ZeroDivisionError:
     print("you can not divide by zero")
