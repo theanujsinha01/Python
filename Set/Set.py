@@ -1,5 +1,4 @@
-#Set : It is store multiple items in single variable 
-# Unchangeable : we can't changed the value of set, but can add or remove items
+#  sets in Python are mutable. You can add or remove items from a set after creating it. But the items inside a set must be immutable, like numbers, strings, or tuples
 # unique : does not contain duplicates
 
 myset = {'apple', 56, 3.4, True}

@@ -1,5 +1,9 @@
+# tuples in Python are immutable, meaning you cannot change their content after creation. Once a tuple is created, its elements cannot be modified, added, or removed.
+
+
+
 #Tuple : similar to list but can't modified once created
-#unchangeable
+
 a = (1,5,8)
 print(a)
 

@@ -15,3 +15,10 @@ print(myList[:4]) # output : 1,2,3,4
 name = 'anujkumar'
 print(name[0:9])
 print(name[4:])
+
+# inbuilt slicing
+list1 = [1,2,3,4,5,6,7,8,9]
+s = slice(1,8)
+print(list1[s])
+k = slice(1,9,2)
+print(list1[k])

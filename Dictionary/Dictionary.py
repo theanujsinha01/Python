@@ -1,4 +1,6 @@
 # Dictionary : it is used to store key : value pair
+# dictionaries in Python are mutable. You can add, change, or remove key-value pairs after creating a dictionary.
+
 mydict = {'ramesh':1, 'mohit':2, 'hitesh':10}
 print(mydict)
 

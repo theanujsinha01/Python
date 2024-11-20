@@ -1,3 +1,13 @@
+#  lists in Python are mutable, meaning you can change their content after they are created. You can:
+
+# Add elements
+# Remove elements
+# Modify existing elements
+
+
+
+
+
 # List : collection items with different or similar 
 list = [1, 'Anuj',2.5, True]
 print(list)
