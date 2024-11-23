@@ -42,3 +42,9 @@ print(result)  # Output: 20
 # Accessing the docstring
 print(multiply.__doc__)  
 # Output: This function takes two numbers as input, multiplies them, and returns the result.
+
+# upper and lower function
+name = 'Dobby'
+print(name.upper())
+print(name.lower())
+
