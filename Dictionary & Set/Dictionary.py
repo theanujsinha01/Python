@@ -19,6 +19,7 @@ print(null_dict)  # Output: {}
 dict['phone'] = '555-5555'
 print(dict)  # Output: {'name': 'John', 'age': 25, 'courses': ['Math', 'CompSci'], 'phone': '555-5555'}
 
+
 # Updating elements in a dictionary
 dict['name'] = 'Jane'
 print(dict)  # Output: {'name': 'Jane', 'age': 25, 'courses': ['Math', 'CompSci'], 'phone': '555-5555'}
@@ -60,4 +61,9 @@ for key, value in dict.items():
 # Check if a key exists in a dictionary
 print('name' in dict)  # Output: True
 print('phone' in dict)  # Output: False
+
+# update() - Updates the dictionary with the specified key-value pairs.
+dict2 = {'phone': '555-5555', 'city': 'New York'}
+dict.update(dict2)
+print(dict)  # Output: {'name': 'John', 'age': 25, 'courses': ['Math', 'CompSci'], 'phone': '555-5555', 'city': 'New York'}
 
